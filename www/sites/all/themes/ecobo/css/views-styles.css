@@ -1,0 +1,1188 @@
+/*  --------------------------------------------------------------
+	------   CLEAN  ----------------------------------------------
+    --------------------------------------------------------------  */
+
+/*  -----  H2 TITLE BLOCK  -----  */
+.block h2{
+	background-color: #555555;
+	color: #ffffff;
+	font-size: 0.95em;
+	font-weight: normal;
+	height: 23px;
+	padding-top: 3px;
+	padding-left: 5px;
+	background-repeat: no-repeat;
+	background-image: url('../images/cubes.png');
+}
+
+/*  -----  GENERAL BLOCK  -----  */
+section.region-sidebar-second div.block-views,
+section.region-sidebar-first div.block-views{
+	float: left;
+	width: 176px;
+}
+
+/*  -----  SPOTLIGHT BLOCK  -----  */
+div#block-views-showcase-spotlight{
+	margin-right: 20px;
+}
+div#block-views-showcase-spotlight h2{
+	background-position: 155px -39px;
+}
+div#block-views-showcase-spotlight .view-content .views-row .views-field-title a{
+	text-transform: uppercase;
+	text-decoration: none;
+	float: left;
+	color: #000000;
+	font-weight: bold;
+	margin-right: 2px;
+	margin-top: 5px;
+	font-size: 0.95em;
+}
+div#block-views-showcase-spotlight .view-content .views-row .views-field-view-node a{
+	color: #1E71B8;
+	float: right;
+	font-size: 0.9em;
+	text-decoration: none;
+	margin-bottom: 2px;
+}
+
+/*  -----  SHOWROOM BLOCKS  -----  */
+div#block-views-showrooms-showroom-content{
+	width: 176px;
+	float: left;
+	margin-right: 20px;
+}
+div#block-views-showrooms-block{
+    width: 176px;
+float: left;
+margin-right: 20px;
+}
+div#block-views-showrooms-block h2,
+div#block-views-showrooms-block-1 h2,
+div#block-views-showrooms-showroom-content h2{
+	background-position: 155px -18px;
+}
+div.showrooms div.view-content{
+	margin-top: 5px;
+}
+div.showrooms div.view-content div.views-row{
+	margin-bottom: 6px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	margin-top: 5px;
+}
+div.showrooms div.view-content div.views-row p{
+	margin-top: 0px;
+	line-height: 1.5em;
+	font-weight: normal;
+	text-transform: none;
+	margin-bottom: 0px;;
+}
+div.showrooms div.view-content div.views-row p a{
+	color: #1E71B8; 
+}
+
+/*  -----  LOTEN BLOCKS  -----  */
+div#block-views-info-loten-block{
+	display: block;
+	width: 100%;
+}
+.view-info-loten p{
+	margin: 0;
+}
+.view-info-loten h2{
+	background-position: 350px -63px;
+	margin-top: 20px;
+}
+.view-info-loten table{
+	margin-top: -5px;
+	width: 100%;
+}
+.view-info-loten table th.col_0{
+    width: 20%;
+}
+.view-info-loten table th.col_1{
+    width: 30%;
+}
+.view-info-loten table th.col_2{
+    width: 30%;
+}
+.view-info-loten table th.col_3{
+    width: 20%;
+}
+.view-info-loten table th.col_0,
+.view-info-loten table td.col_0{
+    padding-left: 5px;
+}
+.view-info-loten table th.col_3,
+.view-info-loten table td.col_3{
+    text-align: right;
+    padding-right: 5px;
+}
+.view-info-loten table tr.odd{
+    background-color: #eeeeee;
+    border-bottom: none;
+}
+.view-info-loten table tr.even{
+    background-color: #ffffff;
+    border-bottom: none;
+}
+
+/*  -----  APPARTEMENTEN + GRONDEN & NIEUWBOUW LIJST  -----  */
+div.project-overzicht div.views-row{
+	background-color: #555555;
+	float: left;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+div.project-overzicht div.views-row a{
+	color: #ffffff;
+	text-decoration: none;
+}
+div.project-overzicht div.views-row-odd{
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+div.project-overzicht div.views-row div.views-field-field-image{
+	height: 132px;
+}
+div.project-overzicht div.views-row div.views-field-title{
+	background-color: #555555;
+	float: left;
+	margin-right: 3px;
+	margin-left: 6px;
+	padding-bottom: 2px;
+}
+div.project-overzicht div.views-row div.views-field-nothing{
+    background-color: #555555;
+    float: left;
+    margin-right: 3px;
+    margin-left: 0px;
+    padding-bottom: 2px;
+}
+
+
+
+
+
+<div class="views-field views-field-nothing">        <span class="field-content"> te</span>  </div>
+
+
+
+
+
+/*  --------------------------------------------------------------
+	------   DEVELOPMENT  ----------------------------------------
+    --------------------------------------------------------------  */
+/*  -----  ECOBO PAGE  -----  */
+div.view-id-ecobo_showroom div.views-row{
+    
+}
+
+div.view-id-ecobo_showroom div.views-row{
+	float: left;
+    margin-right: 20px;
+	width: 274px;
+	margin-bottom: 20px;
+}
+div.view-id-ecobo_showroom div.views-row.views-row-even{
+	margin-right: 0px;
+}
+div#block-views-team-block h2{
+	background-position: 153px -18px;
+}
+div#block-views-team-block div.views-row{
+	margin-bottom: 10px;
+	font-size: 0.9em;
+	border-bottom: 1px solid #dddddd;
+	padding-bottom: 8px;
+}
+div#block-views-team-block div.views-row-1{
+	margin-top: 5px;
+}
+div#block-views-team-block div.views-row div.views-field-field-functie{
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+/*  -----  CONTACT FORM  -----  */
+form fieldset{
+    border: none;
+    padding: 0px;
+    border-top: 2px solid #1E71B8;
+}
+form fieldset legend{
+    padding-right: 10px;
+    color: #1E71B8;
+    font-size: 1.1em;
+    padding-bottom: 3px;
+}
+form .form-item{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+form input{
+    border: 1px solid #cccccc;
+    color: #333333;
+    height: 22px;
+    width: 99%;
+    margin-top : 2px;
+    padding-left: 4px;
+}
+form .form-item textarea{
+    border: 1px solid #cccccc;
+    color: #333333;
+    height: 120px;
+    width: 100%;
+    margin-top: 2px;
+    padding-left: 4px;
+    font-size: 0.9em;
+}
+form .form-item label{
+    font-weight: normal;
+}
+form input#edit-submit{
+    background-color: #1E71B8;
+    color: #ffffff;
+    float: right;
+    width: auto;
+    height: auto;
+    padding: 6px 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/*  -----  EDIT FORM  -----  */
+body.page-node-add form input#edit-delete,
+body.page-node-edit form input#edit-delete{
+    background-color: #d00a16;
+    padding: 2px 4px;
+    font-size: 0.8em;
+    color: #ffffff;
+    float: right;
+    width: auto;
+    height: auto;
+    border: none;
+    cursor: pointer;
+    margin: 12px 10px 0px 0px;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+/*  -----  NEWSLETTER BLOCKS  -----  */
+div#block-mailchimp-lists-ecobo-newsletter-list{
+	width: 176px;
+	float: left;
+	margin-right: 20px;
+}
+div#block-mailchimp-lists-ecobo-newsletter-list h2{
+	background-position: 155px -99px;
+	background-color: #1E71B8;
+}
+div#block-mailchimp-lists-ecobo-newsletter-list div#edit-mailchimp-lists-mailchimp-ecobo-newsletter-list-title{
+	line-height: 1.5em;
+	margin-top: 8px;
+	
+}
+div#block-mailchimp-lists-ecobo-newsletter-list div.form-item{
+	margin-top: 0px;
+	margin-bottom: 6px;
+}
+div#block-mailchimp-lists-ecobo-newsletter-list div.form-item-mailchimp-lists-mailchimp-ecobo-newsletter-list-mergevars-NAAM{
+	margin-top: 8px;
+}
+div#block-mailchimp-lists-ecobo-newsletter-list div.form-item label{
+	font-weight: normal;
+	font-size: 0.95em;
+}
+div#block-mailchimp-lists-ecobo-newsletter-list input{
+	border: 1px solid #555555;
+    color: #333333;
+    height: 18px;
+    width: 174px;
+}
+div#block-mailchimp-lists-ecobo-newsletter-list input.required.error{
+	border: 1px solid red;
+}
+div#block-mailchimp-lists-ecobo-newsletter-list input#edit-submit{
+	border: none;
+	background-color: #555555;
+    color: #ffffff;
+    height: 27px;
+    width: 176px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+/*  -----  PROJECT IMAGES TABS  -----  */
+#block-block-1{
+	margin-bottom: 0;
+	width: 568px;
+	margin-top: 5px;
+}
+#block-block-1 div#tabs{
+	width: 568px;
+	display: block;
+	height: 25px;
+}
+#block-block-1 div#tabs h3{
+	margin: 0;
+	float: left;
+	color: #ffffff;
+	font-size: 0.95em;
+	font-weight: normal;
+	 -webkit-border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	-moz-border-radius-topright: 6px;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 4px;
+    background-color: #999999;
+	margin-right: 2px;	 
+	cursor: pointer;
+}
+#block-block-1 div#tabs h3.selected{
+	background-color: #555555;	 
+}
+/*  -----  PROJECT IMAGES  -----  */
+#block-views-project-images-sfeerbeelden,
+#block-views-project-images-verkavelingen,
+#block-views-project-images-plannen{
+	position: relative;
+	float: left;
+	width: 568px;
+	display: block;
+	height: 370px;
+	overflow: hidden;
+	background-color: #555555;
+}
+#slider1, #slider2, #slider3{
+	width: 548px;
+	overflow: hidden;
+	height: 330px;
+	padding-top: 10px;
+	margin-left: 10px;
+}
+#block-views-project-images-sfeerbeelden ul,
+#block-views-project-images-verkavelingen ul,
+#block-views-project-images-plannen ul{
+	padding: 0;
+	margin: 0;
+}
+#block-views-project-images-sfeerbeelden ul li,
+#block-views-project-images-verkavelingen ul li,
+#block-views-project-images-plannen ul li{
+	height: 330px;
+    overflow: hidden;
+    width: 548px;
+}
+#controls1, #controls2, #controls3{
+	position: relative;
+	margin: 0;
+}
+#prevBtn1, #nextBtn1, #prevBtn2, #nextBtn2, #prevBtn3, #nextBtn3 {
+    display: block;
+    height: 18px;
+    left: 10px;
+    margin: 0;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -8000px;
+    top: -308px;
+    width: 20px;
+}
+#nextBtn1, #nextBtn2, #nextBtn3 {
+    left: 538px;
+}
+#prevBtn1 a, #nextBtn1 a, #prevBtn2 a, #nextBtn2 a, #prevBtn3 a, #nextBtn3 a {
+  background-image: url("../images/links.png");
+  background-repeat: no-repeat;
+  display: block;
+  height: 18px;
+  width: 20px;
+}
+#nextBtn1 a, #nextBtn2 a, #nextBtn3 a {
+  background-image: url("../images/rechts.png");
+  background-repeat: no-repeat;
+}
+div.footer{
+	color: #FFFFFF;
+    display: block;
+    margin: 6px 0 0 10px;
+    position: relative;
+    width: 548px;
+    font-size: 0.9em;
+}
+
+#bijschrift_1, #bijschrift_2, #bijschrift_3{
+	margin: 0;
+	display: inline;
+}
+p.paginanummer{
+	float: right;
+	margin: 0;
+}
+p#no-records{
+	color: #bbbbbb;
+	margin-left: 15px;
+	font-size: 0.9em;
+}
+
+
+
+
+
+
+/*  -----  QUESTION BLOCK  -----  */
+div#block-views-question-button-block{
+	float: none;
+	margin-right: 20px;
+	width: 100%;
+	margin-top: 21px;
+}
+div#block-views-question-button-block div.view-content a{
+	padding: 12px;
+	display: block;
+	background-color: #1E71B8;
+	border-radius: 6px;
+	color: #ffffff;
+	font-size: 1.3em;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+}
+div#block-views-question-button-block a span{
+	display: block;
+	font-weight: normal;
+	font-size: 0.7em;
+	margin-top: 3px;	
+	/*
+	padding: 12px;
+	border-radius: 6px;
+	color: #ffffff;
+	font-size: 1.2em;
+	text-decoration: none;
+	text-align: center;
+	
+	*/
+}
+
+
+
+/*  -----  REALISATIES OVERZICHT BLOCK  -----  */
+div.realisaties{
+	margin-top: 20px;
+	float: left;
+}
+div.realisaties .views-row{
+	float: left;
+	margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #888888;
+}
+div.realisaties .views-row-4,
+div.realisaties .views-row-8,
+div.realisaties .views-row-12{
+	margin-right: 0px;
+}
+div.realisaties .views-row a{
+	display: block;
+    background-color: #888888;
+    border: 3px solid #888888;	
+    text-decoration: none;
+    color: #ffffff;
+}
+div.realisaties .views-row a:hover{
+    /* background-color: #1E71B8;
+    border: 3px solid #1E71B8; */
+    
+}
+div.realisaties .views-row a span{
+    padding-left: 4px;
+    display: block;
+    padding-bottom: 3px;  
+}
+
+
+/*  -----  REALISATIES DETAIL  -----  */
+#block-views-13-realisaties-detail-details{
+    position: relative;
+    float: left;
+    width: 568px;
+    display: block;
+    height: 370px;
+    overflow: hidden;
+    background-color: #555555;
+    margin-top: 10px;
+}
+#block-views-13-realisaties-detail-details ul{
+    padding: 0;
+    margin: 0;
+}
+#block-views-13-realisaties-detail-details ul li{
+    height: 330px;
+    overflow: hidden;
+    width: 548px;
+}
+
+/*  -----  REALISATIES DETAIL LIJST  -----  */
+div#block-views-12-realisaties-details-lijst h2{
+    background-position: 155px -18px;
+}
+div.realisaties-lijst ul,
+div.realisaties-lijst ul li{
+    list-style-image: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+div.realisaties-lijst ul{
+    margin-top: 5px;
+}
+div.realisaties-lijst a{
+	background-color: #DDDDDD;
+    color: #1E71B8;
+    display: block;
+    margin-bottom: 2px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    padding-top: 3px;
+    text-decoration: none;
+}
+div.realisaties-lijst a:hover{
+    background-color: #bbbbbb;
+    color: #ffffff;
+}
+div.realisaties-lijst a.active{
+    background-color: #999999;
+    color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+/*  -----  LOGGED IN USER  -----  */
+#block-views-user-user-name{
+    float: right;
+    margin-bottom: 0;
+    margin-top: 4px;
+    font-size: 0.9em;
+}
+
+
+/*  -----  FOOTER  -----  */
+#footer{
+    border-top: 1px solid #DDDDDD;
+    display: block;
+    float: left;
+    margin-bottom: 20px;
+    padding-top: 3px;
+    width: 100%;  
+}
+#footer #fb-left{
+    float: left;   
+}
+#footer #fb-right{
+    float: right;   
+}
+#footer h5, #footer p, #footer br, #footer span{
+    margin: 0;
+    display: inline;
+    float: left;
+    font-weight: normal;
+    font-size: 0.9em;
+    color: #999999;   
+}
+#footer span.pipe{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #1E71B8;
+}
+#footer h5 a{
+    color: #999999;
+    text-decoration: none;
+}
+#footer h5 a:hover{
+    color: #666666;
+    text-decoration: underline;
+}
+#footer #fb-right h5 a:hover{
+    color: #cc2229;
+    text-decoration: underline;
+}
+
+
+
+
+/*
+
+*/
+
+
+
+
+
+
+
+
+
+/*  -----  AGENDA BLOCKS  -----  */
+div#block-views-nieuwsberichten-nieuws{
+	float: left;
+	width: 176px;
+	margin-bottom: 0px;
+}
+div#block-views-nieuwsberichten-nieuws h2{
+	background-position: 155px 2px;
+	background-color: #1E71B8;
+}
+div.nieuws a{
+	text-decoration: none;
+	color: #333333;
+}
+div.nieuws a:hover{
+	text-decoration: underline;
+}
+div.nieuws div.views-row{
+	border-top: 1px solid #dddddd;
+	float: left;
+	padding-bottom: 10px;
+}
+div.nieuws div.views-row-first{
+    border-top: none;
+}
+div.nieuws div.views-field-title a{
+	font-weight: bold;
+	display: block;
+	margin-top: 10px;
+}
+div.nieuws div.views-field-body p{
+	margin: 5px 0px;
+}
+div.nieuws div.views-field-created{
+	display: inline;
+	font-size: 0.85em;
+	color: #999999;
+	float: left;
+	padding-top: 1px;
+}
+div.nieuws div.views-field-view-node a{
+	display: inline;
+	font-size: 1em;
+	color: #1E71B8;
+	float: right;
+}
+
+
+/*  -----  FLAG ACTIONS  -----  */
+
+span.flag-nieuwsbericht a,
+span.flag-spotlight a{
+    border-radius: 6px 6px 6px 6px;
+    color: #FFFFFF;
+    padding: 6px 20px;
+    text-decoration: none;
+}
+
+span.flag-nieuwsbericht a.flag-action,
+span.flag-spotlight a.flag-action{
+    background-color: #1E71B8;
+}
+span.flag-nieuwsbericht a.unflag-action,
+span.flag-spotlight a.unflag-action{
+    background-color: #888888;
+}
+
+
+.node-type-nieuwsbericht span.flag-message{
+    margin-top: 8px;
+}
+
+/*
+span.flag-spotlight,
+span.flag-nieuwsbericht{
+    float: left;
+}
+span.flag-spotlight span.flag-message,
+span.flag-nieuwsbericht span.flag-message{
+    margin-top: 12px;
+}
+*/
+
+
+/*  -----  TABLE ADMIN  -----  */
+.logged-in .admin-tbl div.view-content{
+    margin-top: 40px;
+}
+.logged-in .admin-tbl table{
+    width: 100%;
+}
+.logged-in div.admin-tbl table tr{
+    height: 25px;
+    border-top: #dddddd solid 1px;
+}
+.logged-in div.admin-tbl table td{
+    padding: 16px 0px 25px 0px;
+}
+.logged-in div.admin-tbl table tr div.views-field{
+    float: left;
+}
+.logged-in div.admin-tbl table tr div.views-field-title{
+    margin-right: 5px;
+}
+.logged-in div.admin-tbl.view-id-14_nieuwsberichten_administration table tr div.views-field-title{
+    width: 70%;
+}
+.logged-in div.admin-tbl.view-id-14_nieuwsberichten_administration table tr div.views-field-body{
+    width: 70%;
+}
+
+
+
+.logged-in div.admin-tbl table tr div.views-field-title{
+    margin-right: 5px;
+}
+.logged-in div.admin-tbl table tr div.views-field-title a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.logged-in div.admin-tbl table tr div.views-field-nothing-1{
+    margin-right: 3px;
+}
+.logged-in div.admin-tbl table tr div.views-field-nothing-2{
+    margin-right: 5px;
+}
+.logged-in div.admin-tbl table tr div.views-field-ops{
+    float: right;
+}
+.logged-in div.admin-tbl.view-id-14_nieuwsberichten_administration table tr div.views-field-ops{
+    margin-top: -13px;
+}
+
+.logged-in div.admin-tbl table tr div.views-field-ops span span span.flag-message{
+	text-align: right;
+	right: 0px;
+	left: auto;
+	padding-right: 5px;
+	margin-top: 8px;
+}
+
+
+
+
+
+
+
+
+/*
+
+
+div.admin-tbl table thead tr th.views-field-title{
+    width: 60%
+}
+div.admin-tbl table thead tr th.views-field-ops{
+    width: 40%
+}
+div.admin-tbl table tbody tr{
+    height: 25px;
+    background-color: #f2f2f2;
+}
+div.admin-tbl table tr.odd{
+    background-color: #e1e1e1;
+}
+div.admin-tbl table tr td,
+div.admin-tbl table tr td.active{
+    background: none;
+    padding: 4px 0px 14px 0px;
+}
+div.admin-tbl table tr td.views-field-title{
+    padding-left: 4px;
+}
+
+div.admin-tbl table tr td.views-field-ops a.unflag-action{
+    color: #999999;
+    background: none;
+    padding: 0px;
+    border-radius: 0px;
+}
+div.admin-tbl table tr td.views-field-ops a.flag-action{
+    color: green;
+    background: none;
+    padding: 0px;
+    border-radius: 0px;
+}
+div.admin-tbl table tr td.views-field-ops span.flag-spotlight,
+div.admin-tbl table tr td.views-field-ops span.flag-nieuwsbericht{
+    margin-bottom: 6px;
+}
+div.admin-tbl table tr td.views-field-ops span.flag-spotlight span.flag-message,
+div.admin-tbl table tr td.views-field-ops span.flag-nieuwsbericht span.flag-message{
+    margin-top: 4px;
+}
+*/
+
+/*  -----  REGIOBOX  -----  */
+#block-views-16-regio-regio h2{
+    background-position: 155px -63px;
+}
+
+
+
+#regiobox{
+    /* background-image: url(../../regio/regio.jpg); */
+    height: 140px;
+    width: 180px;
+    display: block;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+#regio_name{
+	padding: 0;
+	margin: 0;
+    
+}
+#regiobox ul{
+    margin: 0;
+    padding: 0;
+}
+#regiobox ul li, #regiobox ul li a{
+    display: block;
+    background-image: url("../images/belgie.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: absolute;
+}
+
+
+/* 1. OOST-VLAANDEREN */
+#regiobox ul li#prov_1{
+    width: 46px;
+    height: 45px;
+    background-position: -144px -3px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+#regiobox ul li#prov_1.full{
+    background: none;
+}
+#regiobox ul li#prov_1.full a{
+    width: 46px;
+    height: 45px;
+    background-position: -144px -73px;
+}
+#regiobox ul li#prov_1.full a:hover{
+    background-position: -144px -143px;
+}
+
+/* 2. WEST-VLAANDEREN */
+#regiobox ul li#prov_2{
+    width: 46px;
+    height: 45px;
+    background-position: -297px -3px;
+    margin-left: 0px;
+    margin-top: 9px;
+    
+    /* background-color: yellow; */
+}
+#regiobox ul li#prov_2.full{
+    background: none;
+}
+#regiobox ul li#prov_2.full a{
+    width: 46px;
+    height: 45px;
+    background-position: -297px -73px;
+}
+#regiobox ul li#prov_2.full a:hover{
+    background-position: -297px -143px;
+}
+
+/* 3. ANTWERPEN */
+#regiobox ul li#prov_3{
+    width: 50px;
+    height: 38px;
+    background-position: -6px -3px;
+    margin-left: 73px;
+    margin-top: 0px;
+}
+#regiobox ul li#prov_3.full{
+    background: none;
+}
+#regiobox ul li#prov_3.full a{
+    width: 50px;
+    height: 38px;
+    background-position: -6px -73px;
+}
+#regiobox ul li#prov_3.full a:hover{
+    background-position: -6px -143px;
+}
+
+/* 4. LIMBURG */
+#regiobox ul li#prov_4{
+    width: 46px;
+    height: 45px;
+    background-position: -77px -2px;
+    margin-left: 108px;
+    margin-top: 12px;
+}
+#regiobox ul li#prov_4.full{
+    background: none;
+}
+#regiobox ul li#prov_4.full a{
+    width: 46px;
+    height: 45px;
+    background-position: -77px -72px;
+}
+#regiobox ul li#prov_4.full a:hover{
+    background-position: -77px -142px;
+}
+
+/* 5. VLAAMS-BRABANT */
+#regiobox ul li#prov_5{
+    width: 58px;
+    height: 28px;
+    background-position: -220px -3px;
+    margin-left: 61px;
+    margin-top: 30px;
+}
+#regiobox ul li#prov_5.full{
+    background: none;
+}
+#regiobox ul li#prov_5.full a{
+    width: 58px;
+    height: 28px;
+    background-position: -220px -73px;
+}
+#regiobox ul li#prov_5.full a:hover{
+    background-position: -220px -143px;
+}
+
+/* 6. WAALS-BRABANT */
+#regiobox ul li#prov_6{
+    width: 46px;
+    height: 22px;
+    background-position: -355px -3px;
+    margin-left: 68px;
+    margin-top: 46px;
+}
+#regiobox ul li#prov_6.full{
+    background: none;
+}
+#regiobox ul li#prov_6.full a{
+    width: 46px;
+    height: 22px;
+    background-position: -355px -73px;
+}
+#regiobox ul li#prov_6.full a:hover{
+    background-position: -355px -143px;
+}
+
+/* 7. HENEGOUWEN */
+#regiobox ul li#prov_7{
+    width: 80px;
+    height: 62px;
+    background-position: -414px -3px;
+    margin-left: 13px;
+    margin-top: 46px;
+}
+#regiobox ul li#prov_7.full{
+    background: none;
+}
+#regiobox ul li#prov_7.full a{
+    width: 80px;
+    height: 62px;
+    background-position: -414px -73px;
+}
+#regiobox ul li#prov_7.full a:hover{
+    background-position: -414px -143px;
+}
+
+/* 8. LUIK */
+#regiobox ul li#prov_8{
+    width: 65px;
+    height: 43px;
+    background-position: -523px -3px;
+    margin-left: 109px;
+    margin-top: 46px;
+}
+#regiobox ul li#prov_8.full{
+    background: none;
+}
+#regiobox ul li#prov_8.full a{
+    width: 65px;
+    height: 43px;
+    background-position: -523px -73px;
+}
+#regiobox ul li#prov_8.full a:hover{
+    background-position: -523px -143px;
+}
+
+/* 9. NAMEN */
+#regiobox ul li#prov_9{
+    width: 52px;
+    height: 59px;
+    background-position: -683px -3px;
+    margin-left: 78px;
+    margin-top: 57px;
+}
+#regiobox ul li#prov_9.full{
+    background: none;
+}
+#regiobox ul li#prov_9.full a{
+    width: 52px;
+    height: 59px;
+    background-position: -683px -73px;
+}
+#regiobox ul li#prov_9.full a:hover{
+    background-position: -683px -143px;
+}
+
+/* 10. LUXEMBURG */
+#regiobox ul li#prov_10{
+    width: 52px;
+    height: 68px;
+    background-position: -607px -3px;
+    margin-left: 107px;
+    margin-top: 71px;
+}
+#regiobox ul li#prov_10.full{
+    background: none;
+}
+#regiobox ul li#prov_10.full a{
+    width: 52px;
+    height: 68px;
+    background-position: -607px -73px;
+}
+#regiobox ul li#prov_10.full a:hover{
+    background-position: -607px -143px;
+}
+
+
+p.regio_name{
+    display: block;
+}
+
+div#block-views-download-download{
+    float: left;
+    width: 176px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+}
+div#block-views-download-download h2{
+    background-position: 155px -39px;
+}
+div#block-views-download-download div.views-field-nothing{
+    margin-top: 5px;
+}
+
+div#block-views-download-download span.file img.file-icon{
+    display: none;
+    visibility: hidden;
+}
+div#block-views-download-download div.field-content p{
+    margin-top: 10px;
+    float: right;
+    text-align: left;
+    font-size: 11px;
+    background-color: #dddddd;
+    padding: 5px;
+    text-align: center;
+}
+div#block-views-download-download div.view-header p{
+    margin-top: 8px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+div#block-views-download-download div.field-content a{
+    color: #ffffff;
+    background-color: #1E71B8;
+    padding: 6px 0px 6px 0px;;
+    text-decoration: none;
+    text-align: center;
+    font-size: 11px;
+    margin-top: 10px;
+    border-radius: 8px;
+    display: block;
+    width: 100%;
+}
+div#block-views-download-download div.views-row-first div.field-content a{
+    margin-top: 1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

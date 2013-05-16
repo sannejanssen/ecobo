@@ -1,0 +1,245 @@
+/**
+ * @file
+ * Node Styling
+ *
+ * Style anything that isn't in the $content variable.
+ */
+
+
+.node /* Node wrapper */ {
+}
+
+.preview .node /* Preview of the content before submitting new or updated content */ {
+  /* background-color: #ffffea; */ /* Drupal core uses a #ffffea background */
+}
+
+.node-promoted /* A node that has been promoted to the front page */ {
+}
+
+.node-sticky /* A sticky node (displayed before others in a list) */ {
+}
+
+.node-unpublished /* Unpublished nodes */ {
+  /* background-color: #fff4f4; */ /* Drupal core uses a #fff4f4 background */
+}
+
+.node-unpublished p.unpublished,
+.comment-unpublished p.unpublished /* The word "Unpublished" displayed underneath the content. */ {
+  height: 0;
+  overflow: visible;
+  color: #d8d8d8;
+  font-size: 75px;
+  line-height: 1;
+  font-family: Impact, "Arial Narrow", Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  word-wrap: break-word; /* A very nice CSS3 property */
+}
+
+.lt-ie8 .node-unpublished>*,
+.lt-ie8 .comment-unpublished>* {
+  position: relative; /* Otherwise these elements will appear below the "Unpublished" text. */
+}
+
+.node-by-viewer /* A node created by the current user */ {
+}
+
+.node-teaser /* A node displayed as teaser */ {
+}
+
+/* All nodes are given a node-FOO class that describes the type of content that
+ * it is. If you create a new content type called "my-custom-type", it will
+ * receive a "node-my-custom-type" class.
+ */
+.node-page p /* Page content node */ {
+	font-size: 0.9em;
+	line-height: 1.6em;
+	margin-top: 8px;
+}
+
+.node-article /* Article content node */ {
+	
+}
+
+h2.node-title /* Node title */ {
+}
+
+.node .user-picture /* The picture of the node author */ {
+}
+
+.node .submitted /* The "posted by" information */ {
+}
+
+.node .content /* Node's content wrapper */ {
+}
+
+.node ul.links /* Node links. See also the ul.links declaration in the pages.css. */ {
+}
+
+
+
+
+/* NODE ADD/EDIT PROJECT */
+body.page-node-edit.node-type-project .horizontal-tabs,
+body.page-node-add-project .horizontal-tabs{
+    margin-top: 10px;
+}
+body.page-node-edit.node-type-project .horizontal-tabs a,
+body.page-node-add-project .horizontal-tabs a{
+    color: #000000;
+}
+body.page-node-edit.node-type-project fieldset.field-group-htab,
+body.page-node-add-project fieldset.field-group-htab{
+    margin-top: 0px;
+}
+body.page-node-edit.node-type-project fieldset,
+body.page-node-add-project fieldset{
+    border-top: none;
+}
+body.page-node-edit.node-type-project fieldset fieldset legend,
+body.page-node-add-project fieldset fieldset legend{
+    display: none;
+}
+body.page-node-edit.node-type-project fieldset fieldset legend,
+body.page-node-add-project fieldset fieldset legend{
+    display: none;
+}
+body.page-node-edit.node-type-project fieldset fieldset table,
+body.page-node-add-project fieldset fieldset table{
+    width: 100%;
+}
+body.page-node-edit.node-type-project fieldset fieldset table thead,
+body.page-node-add-project fieldset fieldset table thead{
+    display: none;
+}
+body.page-node-edit.node-type-project fieldset fieldset table tr.even td,
+body.page-node-add-project fieldset fieldset table tr.even td{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+body.page-node-edit.node-type-project fieldset div.image-widget input.form-submit,
+body.page-node-edit.node-type-project fieldset div.file-widget input.form-submit,
+body.page-node-add-project fieldset div.image-widget input.form-submit,
+body.page-node-add-project fieldset div.file-widget input.form-submit{
+    background-color: #cccccc;
+    border-radius: 8px;
+    float: left;
+    margin-top: 5px;
+    width: 300px;
+}
+body.page-node-edit.node-type-project div.form-item label,
+body.page-node-add-project div.form-item label{
+    font-weight: bold;
+}
+body.page-node-edit.node-type-project #edit-field-loten-und-0-tablefield-rebuild .fieldset-wrapper,
+body.page-node-add-project #edit-field-loten-und-0-tablefield-rebuild .fieldset-wrapper{
+    display: block;
+}
+body.page-node-edit.node-type-project #edit-field-loten-und-0-tablefield-rebuild .form-item-field-loten-und-0-tablefield-rebuild-count-cols,
+body.page-node-add-project #edit-field-loten-und-0-tablefield-rebuild .form-item-field-loten-und-0-tablefield-rebuild-count-cols{
+    display: none;
+}
+body.page-node-edit.node-type-project #edit-field-loten-und-0-tablefield-rebuild .fieldset-wrapper input#edit-field-loten-und-0-tablefield-rebuild-rebuild,
+body.page-node-add-project #edit-field-loten-und-0-tablefield-rebuild .fieldset-wrapper input#edit-field-loten-und-0-tablefield-rebuild-rebuild{
+    float: left;
+    background-color: #cccccc !important;
+    border-radius: 8px;
+    width: 300px;
+}
+
+
+
+
+
+/*
+
+
+
+
+body.page-node-add-project form div.form-item label,
+body.page-node-edit.node-type-project form div.form-item label{
+    font-weight: bold;
+}
+body.page-node-add-project div.form-item select{
+    margin-top: 6px;
+}
+body.page-node-add-project div.form-item select{
+    margin-top: 6px;
+}
+body.page-node-add-project div.form-item div.image-widget{
+    margin-top: 4px;
+}
+body.page-node-add-project div.form-item input#edit-field-image-und-0-upload{
+    float: left;
+    width: 260px;
+    margin-top: 4px;
+}
+body.page-node-add-project div.form-item input#edit-field-image-und-0-upload-button{
+    float: right;
+}
+body.page-node-add-project fieldset#edit-body-und-0-format,
+body.page-node-add-project fieldset#edit-field-lots-und-0-format{
+    display: none;
+}
+body.page-node-add-project div.form-item div.form-textarea-wrapper{
+    width: 98%;
+}
+body.page-node-add-project form div.form-field-type-image,
+body.page-node-edit.node-type-project form div.form-field-type-image{
+    
+}
+
+
+
+body.page-node-add-project div.form-item input.form-submit{
+    background-color: #1E71B8;
+    color: #ffffff;
+    float: right;
+    width: auto;
+    height: auto;
+    padding: 6px 60px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+*/
+/*
+
+
+
+body.page-node-add-project div.form-wrapper,
+body.page-node-add-project div.form-type-textfield{
+	border-bottom: 1px solid #cccccc;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    
+}
+body.page-node-add-project div#edit-actions{
+    background: none;
+    border: none;
+    margin-bottom: 35px;
+}
+body.page-node-add-project div.form-wrapper label,
+body.page-node-add-project div.form-type-textfield label{
+	font-size: 1.2em;
+	margin-bottom: 8px;
+}
+body.page-node-add-project div.form-wrapper input.form-text{
+    margin-top: -3px;
+}
+
+
+
+
+
+
+
+
+form .form-item{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+*/
