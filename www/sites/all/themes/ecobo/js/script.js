@@ -15,10 +15,10 @@
 	$(document).ready(function(){
 		
 		/* Set submit button newsletter form */
-		$("#block-mailchimp-lists-ecobo-newsletter-list input#edit-submit").val("Inschrijven");
+		$("#block-mailchimp-lists-ecobo-newsletter-list input#edit-submit").val(Drupal.t("Inschrijven"));
 		
 		
-		$("#edit-mailchimp-lists-mailchimp-ecobo-newsletter-list-title").text("Wilt u op de hoogte blijven van al onze projecten? Schrijf u dan hier in voor onze nieuwsbrief.");
+		$("#edit-mailchimp-lists-mailchimp-ecobo-newsletter-list-title").text(Drupal.t("Wilt u op de hoogte blijven van al onze projecten? Schrijf u dan hier in voor onze nieuwsbrief."));
 		
 		
 		

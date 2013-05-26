@@ -96,6 +96,7 @@ body {
 #main {
 	margin-bottom: 10px;
 	/* background-color: #cccccc; */
+  min-height: 250px;
 }
 
 /*

@@ -121,7 +121,7 @@
   
   	<div id="content" class="column" role="main">
       <?php print render($page['highlighted']); ?>
-      <?php // print $breadcrumb; ?>
+      
       <a id="main-content"></a>
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>
@@ -139,16 +139,9 @@
     </div><!-- /#content -->
 
     <div id="navigation" class="clearfix">
-	  <?php 
-	    if($breadcrumb){
-	  		print $breadcrumb;  	
-	    }
-	    else
-	    {
-	    	print "Home";
-	    }
-	   ?>
-      <?php if ($main_menu): ?>
+      <?php print $breadcrumb; ?>
+      
+	    <?php if ($main_menu): ?>
         <nav id="main-menu" role="navigation">
           <?php print theme('links__system_main_menu', array(
             'links' => $main_menu,

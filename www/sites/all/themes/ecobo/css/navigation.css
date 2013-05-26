@@ -92,20 +92,6 @@ li a.active {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
  * Main menu and Secondary menu links
  */
@@ -171,24 +157,25 @@ li a.active {
 }
 
 /*  -----  MAIN MENU  -----*/
-#block-system-main-menu{
-	float: right;
-	width: 800px;
-	margin-bottom: 0px;
+
+.main-menu {
+  float: right;
+  width: 800px;
+  margin-bottom: 0px;
 }
-#block-system-main-menu ul.menu{
+.main-menu ul.menu{
 	padding: 0;
 	margin: 0;
 	margin-top: 14px;
 	float: right;
 }
-body.not-logged-in #block-system-main-menu ul.menu{
-    margin-top: 59px;
+body.not-logged-in .main-menu ul.menu{
+    margin-top: 24px;
 }
-#block-system-main-menu ul.menu li{
+.main-menu ul.menu li{
 	display: inline;
 }
-#block-system-main-menu ul.menu li a{
+.main-menu ul.menu li a{
 	display: block;
 	float: left;
 	height: 19px;
@@ -197,19 +184,19 @@ body.not-logged-in #block-system-main-menu ul.menu{
 	padding-bottom: 4px;
 	font-size: 1.2em;
 }
-#block-system-main-menu ul.menu li.last a{
+.main-menu ul.menu li.last a{
 	margin-right: 0px;
 }
-#block-system-main-menu ul.menu li a:link,
-#block-system-main-menu ul.menu li a:active,
-#block-system-main-menu ul.menu li a:visited{
+.main-menu ul.menu li a:link,
+.main-menu ul.menu li a:active,
+.main-menu ul.menu li a:visited{
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #000000;
 }
-#block-system-main-menu ul.menu li a:hover,
-#block-system-main-menu ul.menu li a.active,
-#block-system-main-menu ul.menu li a.active-trail{
+.main-menu ul.menu li a:hover,
+.main-menu ul.menu li a.active,
+.main-menu ul.menu li a.active-trail{
 	border-top: 3px solid #1E71B8;
 	border-bottom: 3px solid #1E71B8;
 	padding-top: 3px;
@@ -217,6 +204,45 @@ body.not-logged-in #block-system-main-menu ul.menu{
 	color: #000000;
 }
 
+/* Language switcher */
+#block-locale-language {
+  height: 30px;
+  float: right;
+  margin: 5px 0 0 0;
+}
+
+.logged-in #block-locale-language {
+  margin-left: 50px;
+}
+
+#block-locale-language ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#block-locale-language ul li {
+  display: inline;
+  float: left;
+}
+
+#block-locale-language ul li.first {
+  margin-right: 10px;
+}
+
+#block-locale-language ul li a {
+  color: #444;
+}
+
+#block-locale-language ul li.active a {
+  text-decoration: none;
+  color: #888;
+}
+
+/* Hide English */
+#block-locale-language ul .en {
+  display: none;
+}
 
 
 
