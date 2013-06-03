@@ -166,9 +166,10 @@ li a.active {
 .main-menu ul.menu{
 	padding: 0;
 	margin: 0;
-	margin-top: 14px;
+	margin-top: 17px;
 	float: right;
 }
+
 body.not-logged-in .main-menu ul.menu{
     margin-top: 24px;
 }
@@ -184,6 +185,11 @@ body.not-logged-in .main-menu ul.menu{
 	padding-bottom: 4px;
 	font-size: 1.2em;
 }
+
+.i18n-fr .main-menu ul.menu li a {
+  font-size: 13px;
+}
+
 .main-menu ul.menu li.last a{
 	margin-right: 0px;
 }
@@ -244,7 +250,9 @@ body.not-logged-in .main-menu ul.menu{
   display: none;
 }
 
-
+#block-locale-language .contextual-links-wrapper {
+  display: none;
+}
 
 
 

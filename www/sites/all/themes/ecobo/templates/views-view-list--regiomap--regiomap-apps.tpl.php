@@ -26,19 +26,6 @@ Namen: 10
 */
 $provincies = array();
 
-/*
-<li onmouseover="document.getElementById('regio_name').innerHTML='Limburg'" onmouseout="document.getElementById('regio_name').innerHTML='&nbsp;'" id="prov_2"></li>
-<li onmouseover="document.getElementById('regio_name').innerHTML='Oost-Vlaanderen'" onmouseout="document.getElementById('regio_name').innerHTML='&nbsp;'" id="prov_3" class="full"><a href="index.php?page=nieuwbouw&amp;prov=3"></a></li>
-<li onmouseover="document.getElementById('regio_name').innerHTML='West-Vlaanderen'" onmouseout="document.getElementById('regio_name').innerHTML='&nbsp;'" id="prov_5" class="full"><a href="index.php?page=nieuwbouw&amp;prov=5"></a></li>
-<li onmouseover="document.getElementById('regio_name').innerHTML='Henegouwen'" onmouseout="document.getElementById('regio_name').innerHTML='&nbsp;'" id="prov_7"></li>
-<li onmouseover="document.getElementById('regio_name').innerHTML='Namen'" onmouseout="document.getElementById('regio_name').innerHTML='&nbsp;'" id="prov_10"></li>
-<li onmouseover="document.getElementById('regio_name').innerHTML='Luxemburg'" onmouseout="document.getElementById('regio_name').innerHTML='&nbsp;'" id="prov_9"></li>
-<li onmouseover="document.getElementById('regio_name').innerHTML='Luik'" onmouseout="document.getElementById('regio_name').innerHTML='&nbsp;'" id="prov_8"></li>
-<li onmouseover="document.getElementById('regio_name').innerHTML='Vlaams-Brabant'" onmouseout="document.getElementById('regio_name').innerHTML='&nbsp;'" id="prov_4" class="full"><a href="index.php?page=nieuwbouw&amp;prov=4"></a></li>
-<li onmouseover="document.getElementById('regio_name').innerHTML='Waals-Brabant'" onmouseout="document.getElementById('regio_name').innerHTML='&nbsp;'" id="prov_6"></li>
-<li onmouseover="document.getElementById('regio_name').innerHTML='Antwerpen'" onmouseout="document.getElementById('regio_name').innerHTML='&nbsp;'" id="prov_1"></li>
-*/
-
 $provincies[1]['val'] = 0;
 $provincies[1]['name'] = "Oost-Vlaanderen";
 $provincies[2]['val'] = 0;
@@ -52,7 +39,7 @@ $provincies[5]['name'] = "Vlaams-Brabant";
 $provincies[6]['val'] = 0;
 $provincies[6]['name'] = "Waals-Brabant";
 $provincies[7]['val'] = 0;
-$provincies[7]['name'] = "Henegouwen";
+$provincies[7]['name'] = t("Henegouwen");
 $provincies[8]['val'] = 0;
 $provincies[8]['name'] = "Luik";
 $provincies[9]['val'] = 0;
@@ -76,6 +63,7 @@ foreach( $provincies as $p_id=>$prov )
   
   if( $prov['val'] == 0)
   {
+
     $output_html .= <<<HTML
   		<li onmouseover="document.getElementById('regio_name').innerHTML='$provincie_name'" onmouseout="document.getElementById('regio_name').innerHTML='&nbsp;'" id="prov_$provincie_id"></li>
 HTML
