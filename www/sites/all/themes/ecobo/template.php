@@ -13,6 +13,15 @@ function ecobo_breadcrumb($variables) {
 
   /* Remove empty breadcrumb */
   foreach ($breadcrumb as $id => $item) {
+    if($item == '<a href="/fr/terrains-et-nouvelles-constructions">Gronden &amp; Nieuwbouw</a>') {
+      $breadcrumb[$id] = '<a href="/fr/terrains-et-nouvelles-constructions">Terrains et nouvelles constructions</a>';
+    }
+
+
+
+
+
+
     if($item == '<a href="/node"></a>' || $item == '<a href="/fr/node"></a>') {
       unset($breadcrumb[$id]);
     }
@@ -28,5 +37,14 @@ function ecobo_breadcrumb($variables) {
 
       return $output;
     }
+  }
+}
+
+function ecobo_preprocess_views_view_list(&$variables) {
+  global $language;
+  $variables['language'] = 'nl';
+
+  if ($language->language == 'fr') {
+    $variables['language'] = 'fr';
   }
 }

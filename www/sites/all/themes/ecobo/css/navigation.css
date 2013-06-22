@@ -250,6 +250,7 @@ body.not-logged-in .main-menu ul.menu{
   display: none;
 }
 
+#block-menu-menu-submenu .contextual-links-wrapper,
 #block-locale-language .contextual-links-wrapper {
   display: none;
 }

@@ -60,8 +60,17 @@ margin-right: 20px;
 }
 div#block-views-showrooms-block h2,
 div#block-views-showrooms-block-1 h2,
-div#block-views-showrooms-showroom-content h2{
+div#block-views-showrooms-showroom-content h2 {
 	background-position: 155px -18px;
+}
+
+#block-views-regiomap-regiomap-apps h2,
+#block-views-regiomap-regiomap-gronden h2 {
+  background-position: 155px -63px;
+}
+
+#block-block-4 h2 {
+  background-position: 345px -63px;
 }
 div.showrooms div.view-content{
 	margin-top: 5px;
@@ -328,17 +337,20 @@ div#block-mailchimp-lists-ecobo-newsletter-list input#edit-submit{
 
 
 /*  -----  PROJECT IMAGES TABS  -----  */
-#block-block-1{
+#block-block-1,
+#block-block-6 {
 	margin-bottom: 0;
 	width: 568px;
 	margin-top: 5px;
 }
-#block-block-1 div#tabs{
+#block-block-1 div#tabs,
+#block-block-6 div#tabs {
 	width: 568px;
 	display: block;
 	height: 25px;
 }
-#block-block-1 div#tabs h3{
+#block-block-1 div#tabs h3,
+#block-block-6 div#tabs h3 {
 	margin: 0;
 	float: left;
 	color: #ffffff;
@@ -358,7 +370,8 @@ div#block-mailchimp-lists-ecobo-newsletter-list input#edit-submit{
 	margin-right: 2px;	 
 	cursor: pointer;
 }
-#block-block-1 div#tabs h3.selected{
+#block-block-1 div#tabs h3.selected,
+#block-block-6 div#tabs h3.selected {
 	background-color: #555555;	 
 }
 /*  -----  PROJECT IMAGES  -----  */

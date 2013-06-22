@@ -50,25 +50,25 @@ $provincies[1]['name'] = "Antwerpen";
 
 
 $provincies[1]['val'] = 0;
-$provincies[1]['name'] = "Oost-Vlaanderen";
+$provincies[1]['name'] = t('Oost-Vlaanderen');
 $provincies[2]['val'] = 0;
-$provincies[2]['name'] = "West-Vlaanderen";
+$provincies[2]['name'] = t('West-Vlaanderen');
 $provincies[3]['val'] = 0;
-$provincies[3]['name'] = "Antwerpen";
+$provincies[3]['name'] = t('Antwerpen');
 $provincies[4]['val'] = 0;
-$provincies[4]['name'] = "Limburg";
+$provincies[4]['name'] = t('Limburg');
 $provincies[5]['val'] = 0;
-$provincies[5]['name'] = "Vlaams-Brabant";
+$provincies[5]['name'] = t('Vlaams-Brabant');
 $provincies[6]['val'] = 0;
-$provincies[6]['name'] = "Waals-Brabant";
+$provincies[6]['name'] = t('Waals-Brabant');
 $provincies[7]['val'] = 0;
-$provincies[7]['name'] = "Henegouwen";
+$provincies[7]['name'] = t('Henegouwen');
 $provincies[8]['val'] = 0;
-$provincies[8]['name'] = "Luik";
+$provincies[8]['name'] = t('Luik');
 $provincies[9]['val'] = 0;
-$provincies[9]['name'] = "Namen";
+$provincies[9]['name'] = t('Namen');
 $provincies[10]['val'] = 0;
-$provincies[10]['name'] = "Luxemburg";
+$provincies[10]['name'] = t('Luxemburg');
 
 foreach ( $rows as $row )
 {
@@ -92,8 +92,16 @@ HTML
   }
   else
   {
+    if($variables['language'] == 'nl') {
+      $url = l('', 'gronden-en-nieuwbouw/' . $provincie_id );
+    }
+    else {
+      $url = l('', 'terrains-et-nouvelles-constructions/' . $provincie_id );
+    }
+    
+    /*<a href="?q=gronden-en-nieuwbouw/$provincie_id"></a>*/
     $output_html .= <<<HTML
-    	<li onmouseover="document.getElementById('regio_name').innerHTML='$provincie_name'" onmouseout="document.getElementById('regio_name').innerHTML='&nbsp;'" id="prov_$provincie_id" class="full"><a href="?q=gronden-en-nieuwbouw/$provincie_id"></a></li>
+    	<li onmouseover="document.getElementById('regio_name').innerHTML='$provincie_name'" onmouseout="document.getElementById('regio_name').innerHTML='&nbsp;'" id="prov_$provincie_id" class="full">$url</li>
 HTML
 ;
   }
