@@ -79,12 +79,12 @@ foreach ( $rows as $row )
 $output_html = "";
 foreach( $provincies as $p_id=>$prov )
 {
-  
   $provincie_id = $p_id;
-  dsm($prov);
-  $provincie_name = $prov['name'];
 
-  
+  if (isset($prov['name'])) {
+    $provincie_name = $prov['name'];
+  }
+
   if( $prov['val'] == 0)
   {
     $output_html .= <<<HTML
