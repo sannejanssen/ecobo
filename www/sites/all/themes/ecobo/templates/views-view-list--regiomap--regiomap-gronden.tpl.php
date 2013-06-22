@@ -81,7 +81,9 @@ foreach( $provincies as $p_id=>$prov )
 {
   
   $provincie_id = $p_id;
+  dsm($prov);
   $provincie_name = $prov['name'];
+
   
   if( $prov['val'] == 0)
   {
