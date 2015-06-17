@@ -1,6 +1,11 @@
 <?php
 
 /**
+ * @file
+ * Install, update and uninstall functions for the mailchimp_activity module.
+ */
+
+/**
  * Implements hook_schema().
  */
 function mailchimp_activity_schema() {
@@ -39,6 +44,13 @@ function mailchimp_activity_schema() {
         'not null' => TRUE,
         'default' => '',
       ),
+      'entity_path' => array(
+        'description' => 'The path to view individual entities of the selected type.',
+        'type' => 'varchar',
+        'length' => 128,
+        'not null' => TRUE,
+        'default' => '',
+      ),
       'email_property' => array(
         'description' => 'The property that contains the email address to track',
         'type' => 'varchar',
@@ -53,7 +65,7 @@ function mailchimp_activity_schema() {
         'size' => 'tiny',
         'description' => 'Whether or not this mailchimp activity stream is enabled.',
       ),
-      // following fields are for supporting exportable status.
+      // The following fields are for supporting exportable status.
       'locked' => array(
         'description' => 'A boolean indicating whether the administrator may delete this mapping.',
         'type' => 'int',

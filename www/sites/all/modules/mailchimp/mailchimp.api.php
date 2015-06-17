@@ -6,71 +6,27 @@
  */
 
 /**
- * Respond to an email being added to a list.
+ * Alter mergevars before they are sent to Mailchimp.
  *
- * @param $list
- *   MailChimp list object.
- * @param $email
- * @param $merge_vars
+ * @param array $mergevars
+ * @param object $entity
+ * @param string $entity_type
+ *
+ * @return NULL
  */
-function hook_mailchimp_subscribe_user($list, $email, $merge_vars) {
-
+function hook_mailchimp_lists_mergevars_alter(&$mergevars, $entity, $entity_type) {
 }
 
 /**
- * Respond to an email being removed from a list.
+ * Perform an action during the firing of a MailChimp webhook.
  *
- * @param $list
- *   MailChimp list object.
- * @param $email
+ * Refer to http://apidocs.mailchimp.com/webhooks for more details.
+ *
+ * @string $type
+ *   The type of webhook firing.
+ * @array $data
+ *   The data contained in the webhook.
  */
-function hook_mailchimp_unsubscribe_user($list, $email) {
+function hook_mailchimp_process_webhook($type, $data) {
 
-}
-
-/**
- * Return an array of additional merge tokens.
- *
- * @return array
- */
-function hook_mailchimp_lists_merge_tokens() {
-  $out = array('' => t('-- Select --'));
-
-  // invoke hook to get all merge tokens
-  $tokens = module_invoke_all('mailchimp_lists_merge_tokens');
-
-  foreach ($tokens as $key => $token) {
-    $out[$key] = t('!field', array('!field' => $token['name']));
-  }
-
-  return $out;
-}
-
-/**
- * Return an array of matching merge values.
- *
- * @param $mergevars
- * @param $account
- * @param $list
- *
- * @return array
- */
-function hook_mailchimp_lists_merge_values($mergevars, $account, $list) {
-  $values = array();
-
-  // grab the saved list merge vars and filter out unset values
-  if (!empty($list->settings['mergefields'])) {
-    $mergevars = array_filter($list->settings['mergefields']);
-    $mergevars = array_flip($mergevars);
-
-    // match with token values
-    $values = module_invoke_all('mailchimp_lists_merge_values', $mergevars, $account, $list);
-
-    // always add email
-    $values += array(
-      'EMAIL' => $account->mail
-    );
-  }
-
-  return $values;
 }
