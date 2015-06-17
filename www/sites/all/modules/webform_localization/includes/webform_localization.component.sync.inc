@@ -8,7 +8,7 @@
 /**
  * Development sponsored by Riot Games.
  *
- * @author German Martin <gmartin.prg@gmail.com>
+ * @author German Martin <gmartin.php@gmail.com>
  */
 
 /**
@@ -30,7 +30,7 @@ function webform_localization_component_get_translations($component) {
   $node = node_load($component['nid']);
   $translations = translation_node_get_translations($node->tnid);
 
-  if (!isset($component_translations[$node->tnid])) {
+  if (!isset($component_translations[$node->tnid]) && !empty($translations)) {
     $nid_list = array();
     foreach ($translations as $trans_node) {
       $nid_list[] = $trans_node->nid;
